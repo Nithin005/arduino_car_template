@@ -1,3 +1,4 @@
+
 class motor
 {
 public:
@@ -90,6 +91,7 @@ public:
 };
 
 car c;
+char t;
 void setup()
 {
     c.setlm(6, 7, 8);
@@ -100,7 +102,7 @@ void loop()
 {
     if (Serial.available())
     {
-        c = Serial.read();
+        t = Serial.read();
         switch (c)
         {
         case '1':
