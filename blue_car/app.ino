@@ -103,7 +103,7 @@ void loop()
     if (Serial.available())
     {
         t = Serial.read();
-        switch (c)
+        switch (t)
         {
         case '1':
             c.f();
