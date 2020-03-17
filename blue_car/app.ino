@@ -49,13 +49,13 @@ public:
     void setlm(int p1, int p2, int e)
     {
         // lm = new motor();
-        lm.pinout(6, 7, 8);
+        lm.pinout(p1, p2, e);
         lm.setup();
     }
     void setrm(int p1, int p2, int e)
     {
         // rm = new motor();
-        rm.pinout(9, 10, 11);
+        rm.pinout(p1, p2, e);
         rm.setup();
     }
 
