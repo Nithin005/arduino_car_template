@@ -96,6 +96,7 @@ void setup()
 {
     c.setlm(6, 7, 8);
     c.setrm(9, 10, 11);
+Serial.begin(9600);
 }
 
 void loop()
